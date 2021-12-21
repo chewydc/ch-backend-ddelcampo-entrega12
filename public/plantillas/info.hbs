@@ -1,0 +1,27 @@
+<h1> <span class="badge badge-secondary">INFO</span></h1>
+<div>
+    {{#if this.info.Arg}}
+    <div class="alert alert-dark" role="alert">
+        Argumentos de entrada: <b>{{this.info.Arg}}</b>
+    </div>
+    {{/if}}
+    <div class="alert alert-dark" role="alert">
+        Sistema Operativo: <b>{{this.info.SO}}</b>
+    </div>
+    <div class="alert alert-dark" role="alert">
+        Version de Node: <b>{{this.info.Node}}</b>
+    </div>
+    <div class="alert alert-dark" role="alert">
+        Memoria Total Reservada (rss): <b>{{this.info.Memoria}}</b> bytes.
+    </div>
+    <div class="alert alert-dark" role="alert">
+        Path de ejecucion: <b>{{this.info.execPath}}</b>
+    </div>
+    <div class="alert alert-dark" role="alert">
+        Process ID: <b>{{this.info.PID}}</b>
+    </div>
+    <div class="alert alert-dark" role="alert">
+        Carpeta del Proyecto: <b>{{this.info.ProjectFolder}}</b>
+    </div>
+</div>
+

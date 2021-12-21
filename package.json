@@ -1,0 +1,30 @@
+{
+  "name": "entrega12_ddelcampo",
+  "version": "1.0.0",
+  "description": "Entrega 11 - DotENV",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "express-session": "^1.17.2",
+    "faker": "^5.5.3",
+    "knex": "^0.95.13",
+    "minimist": "^1.2.5",
+    "mongoose": "^6.1.1",
+    "mysql": "^2.18.1",
+    "normalizr": "^3.6.1",
+    "passport": "^0.5.0",
+    "passport-local-mongoose": "^6.1.0",
+    "socket.io": "^4.3.1"
+  }
+}

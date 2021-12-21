@@ -1,0 +1,15 @@
+{{#if mostrar}} 
+<div class="table-responsive">
+    <table class="table table-hover">
+        <tr style="color: brown;">
+            <th>Titulo</th>
+            <th>Precio</th>
+            <th>Foto URL</th>
+        </tr>
+        {{#each productos_fake}}
+            <tr> <td>{{this.title}}</td> <td>${{this.price}}</td> <td><img width="50" src={{this.thumbnail}} alt="not found"></td> </tr>
+        {{/each}}
+    </table>
+</div>
+<button type="button" class="btn btn-outline-dark float-right" onclick="listarProductosFake(false)">Ocultar</button>
+{{/if}}
